@@ -18,7 +18,7 @@ $(function(){
     var byline = 'Created by <a href="https://www.recordkeeping.unsw.edu.au">UNSW Archives</a>.'
     // var byline = '';
     // Add a tagline
-    var tagline = 'How well do you know Tharunka?';
+    var tagline = 'How well do you know your Tharunka?';
     // Leave this alone unless you're publishing on a non-https server
     var useHttps = 'true';
 
