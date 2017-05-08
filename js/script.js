@@ -15,7 +15,7 @@ $(function(){
     // var titles = '840 35';
     var titles = '1187';
     // Add a byline, eg:
-    var byline = 'Created by <a href="https://www.recordkeeping.unsw.edu.au">UNSW Archives</a>.'
+    var byline = 'Tharunka element created by <a href="https://www.recordkeeping.unsw.edu.au">UNSW Archives</a> using the game originated by <a href="https://timsherratt.org">Tim Sherratt</a>.'
     // var byline = '';
     // Add a tagline
     var tagline = 'How well do you know your Tharunka?';
