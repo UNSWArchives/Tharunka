@@ -56,7 +56,7 @@ $(function(){
     function clean_query() {
         var query;
         if (useHttps === 'false') {
-            query = 'https://api.trove.nla.gov.au/v2/result?q=zone=newspaper&l-category=Article&encoding=json&key=aqs1r1d5eggh68t7'
+            query = 'https://api.trove.nla.gov.au/v2/result?q=all&zone=newspaper&category=Article&key=aqs1r1d5eggh68t7'
         } else {
             query = 'https://trove-proxy.herokuapp.com/api/result?zone=newspaper&l-category=Article&encoding=json'
         }
