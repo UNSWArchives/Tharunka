@@ -58,7 +58,7 @@ $(function(){
         if (useHttps === 'false') {
             query = 'https://api.trove.nla.gov.au/v2/result?q=all&zone=newspaper&category=Article&encoding=json&key=aqs1r1d5eggh68t7'
         } else {
-            query = 'https://trove-proxy.herokuapp.com/api/result?q=all&zone=newspaper&category=Article&encoding=json&key=aqs1r1d5eggh68t7'
+            query = 'https://trove-proxy.herokuapp.com/api//v2/result?q=all&zone=newspaper&category=Article&encoding=json&key=aqs1r1d5eggh68t7'
         }
         if (apiQuery !== "") {
             query = apiQuery.replace(/&n=\d+/, "").replace(/&s=\d+/, "").replace(/&key=[a-z0-9]+/, "").replace(/&encoding=xml/, "&encoding=xml")
